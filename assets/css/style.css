@@ -239,12 +239,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-.container {
+  .container {
   width: 100%;
   padding-top: 20px;
   padding-right: 20px;
@@ -253,14 +248,69 @@ input[type=submit] {
 }
 
 .main-section {
-
   width: 50%;
   padding: 30px;
 }
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  
+}
  p {
-  float: left;
+  float: right;
+  margin-bottom: 20px;
  }
+footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+body {
+  width: auto;
+}
+.main-section {
+  width: auto;
+  padding: 40px;
+  margin: 20px;
+}
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  p {
+    width: 50%;
+  }
+
+.sidebar {
+  float: left;
+  width: 100%;
+  margin: 20px;
+  padding-right: 40px;
+}
+
+footer {
+  
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
 
 @media screen and (max-width: 640px) {
+
+}
 
 }
