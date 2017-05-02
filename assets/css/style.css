@@ -293,12 +293,14 @@ body {
   p {
     width: 50%;
   }
-
+h2 {
+  width: auto;
+}
 .sidebar {
   float: left;
-  width: 100%;
+  max-width: 650px;
   margin: 20px;
-  padding-right: 40px;
+  
 }
 
 footer {
