@@ -239,7 +239,8 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  .container {
+
+.container {
   width: 100%;
   padding-top: 20px;
   padding-right: 20px;
@@ -247,22 +248,37 @@ input[type=submit] {
   padding-bottom: 20px;
 }
 
+nav {
+  margin-right: 50px;
+}
+
 .main-section {
-  width: 50%;
+  width: 60%;
   padding: 30px;
 }
-.auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  
+
+.work {
+  width: 100%;
 }
- p {
+
+.sidebar {
+  float: left;
+  margin-left: 60px;
+}
+
+.auth-image {
+  float: left;
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+p {
   float: right;
   margin-bottom: 20px;
  }
+
 footer {
   width: 100%;
   padding-top: 40px;
@@ -278,50 +294,71 @@ footer {
 body {
   width: auto;
 }
+
 .main-section {
-  width: auto;
+  width: 100%;
   padding: 40px;
   margin: 20px;
 }
+
+.work {
+  width:46%;
+}
+
 .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
-  p {
-    text-align: left;
-    width: 50%;
-  }
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+p {
+  text-align: left;
+  width: 50%;
+}
+
 h2 {
   width: auto;
 }
+
 .sidebar {
   float: left;
   max-width: 650px;
   margin: 20px;
-  
 }
 
 footer {
-  
   padding-top: 40px;
   padding-right: 20px;
   padding-left: 40px;
   padding-bottom: 20px;
 }
 
+}
+
 @media screen and (max-width: 640px) {
 
-  body {
-    width: 100%;
+#main-container {
+  padding-left: 2%;
+}
+
+body {
+  width: 100%;
   }
 
 #masthead {
   position: static;
   margin: 0px;
   
+}
+
+.main-section {
+  width: 93%;
+}
+
+.work {
+  width:100%;
 }
 
 .container {
@@ -345,23 +382,22 @@ nav a {
   padding-top: 1%;
 }
 
-  .auth-image {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
+.auth-image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
 
-  p {
-    width: 100%;
-  }
-  .sidebar {
-    clear:both;
-    width:93%;
-    margin:20px;
-    padding:40px;
+p {
+  width: 100%;
+}
 
-  
+.sidebar {
+  clear:both;
+  width:93%;
+  margin:20px;
+  padding:40px;
 }
 
 }
