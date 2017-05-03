@@ -291,6 +291,7 @@ body {
     margin-right: 25px;
   }
   p {
+    text-align: left;
     width: 50%;
   }
 h2 {
@@ -312,6 +313,56 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+
+  body {
+    width: 100%;
+  }
+
+#masthead {
+  position: static;
+  margin: 0px;
+  
+}
+
+.container {
+  width: 100%;
+  padding: 00px;
+
+}
+
+#logo {
+  width: 100%;
+
+}
+nav {
+  float:left;
+}
+nav a {
+  padding-left: 100px;
+}
+
+#main-container {
+  padding-top: 1%;
+}
+
+  .auth-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  p {
+    width: 100%;
+  }
+  .sidebar {
+    clear:both;
+    width:93%;
+    margin:20px;
+    padding:40px;
+
+  
+}
 
 }
 
